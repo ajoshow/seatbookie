@@ -1,0 +1,56 @@
+#header{
+	text-align:center;
+  	height: 100px; 
+  	line-height: 100px;
+  	background:#2d3d90;
+  	vertical-align: middle;
+}
+
+.uploadedDiv {
+	padding-top : 25px;
+	text-align: center;
+	border-image: initial;
+}
+
+#fileToUpload {
+	display: none;
+}
+
+#loading {
+	text-align: center;
+	padding : 10px;
+	visibility: hidden;
+}
+
+#showImg {
+	padding-right : 20px;
+	padding-left : 20px;
+	text-align: center;
+	display: none;
+	width:500px;
+	max-height: 380px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+#open {
+	text-align: center;
+	display: none;
+}
+
+img, embed, object, video {
+    max-width:100%;
+    height:auto;
+    vertical-align: middle;
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+	background: 404040;
+  	min-height: 100%;
+  	height: auto;
+  	/* Negative indent footer by its height */
+  	margin: 0 auto -60px;
+ 	/* Pad bottom by footer height */
+	padding: 0 0 60px;
+}

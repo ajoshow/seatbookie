@@ -1,0 +1,112 @@
+#header{
+	text-align:center;
+  height: 100px; 
+  line-height: 100px;
+	background:#2d3d90;
+  vertical-align: middle;
+}
+
+
+#viewport-container{
+  padding:0;
+  text-align:center;
+	background:white;
+}
+
+#outter-container{
+ background:#e1e3e2;
+}
+
+#minimap-container{
+  padding:0;
+	text-align:center;
+	background:#ffffff;
+}  
+
+html,
+body {
+	color: #404040;
+	height: 100%;
+	/* The html and body elements cannot have any padding or margin. */
+}
+
+img, embed, object, video {
+    max-width:100%;
+    height:auto;
+    vertical-align: middle;
+}
+
+svg{
+    z-index : 666;
+}
+
+
+/* Wrapper for page content to push down footer */
+#wrap {
+	background: 404040;
+  	min-height: 100%;
+  	height: auto;
+  	/* Negative indent footer by its height */
+  	margin: 0 auto -60px;
+ 	/* Pad bottom by footer height */
+	padding: 0 0 60px;
+}
+
+#footer{
+	text-align:center;
+	height: 60px; 
+  color:#404040;
+	background:white;
+	bottom:0;
+	position:relative;
+}
+
+/* Setup viewport and minimap scroller style */
+#viewport
+{
+  margin: 0 auto;
+  /* viewport size */
+  overflow: hidden;
+  max-width:100%;
+  z-index: 1;
+}
+#viewport-scroller
+{
+ /* This will be your desire magnifier size */
+  /*background: url(../images/ex-svg-map.jpg);*/
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+
+#minimap
+{
+  margin: 0 auto;
+  /*background: url(../images/ex-svg-map.jpg);*/
+  /* minimap image size */
+  /*background-size: 150px 150px;*/
+  /* minimap viewport size */
+  height: 150px;
+  top: 0;
+  left: 0;
+  z-index: 1;
+ 
+}
+
+#minimap-indicator
+{
+  background: rgba(255,255,255,0.15);
+  border: 1px solid yellow;
+  box-shadow: 0 0 5px #000;
+  position: absolute; 
+  z-index: 1;
+}
+
+.legend-row{
+  margin-bottom:5px;
+}
+
+.legend-marker{
+  width:10px;
+}
